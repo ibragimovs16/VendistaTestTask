@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{37B14E8E-C050-4F3B-B06F-389D7791AF87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1AF5935A-6B55-49A7-AAC1-68776841E196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{0327E4D3-1698-4F79-AFF7-6288DD3DD12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendistaTestTask.Domain", "VendistaTestTask.Domain\VendistaTestTask.Domain.csproj", "{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendistaTestTask.Services", "VendistaTestTask.Services\VendistaTestTask.Services.csproj", "{57B72054-6786-4575-B203-669451493550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendistaTestTask", "VendistaTestTask\VendistaTestTask.csproj", "{54858E01-63E5-452D-A0D9-7918730D4507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA} = {37B14E8E-C050-4F3B-B06F-389D7791AF87}
+		{57B72054-6786-4575-B203-669451493550} = {1AF5935A-6B55-49A7-AAC1-68776841E196}
+		{54858E01-63E5-452D-A0D9-7918730D4507} = {0327E4D3-1698-4F79-AFF7-6288DD3DD12D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2751E564-DCC8-4F99-89E4-EAEC89F7D3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B72054-6786-4575-B203-669451493550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B72054-6786-4575-B203-669451493550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B72054-6786-4575-B203-669451493550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B72054-6786-4575-B203-669451493550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54858E01-63E5-452D-A0D9-7918730D4507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54858E01-63E5-452D-A0D9-7918730D4507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54858E01-63E5-452D-A0D9-7918730D4507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54858E01-63E5-452D-A0D9-7918730D4507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

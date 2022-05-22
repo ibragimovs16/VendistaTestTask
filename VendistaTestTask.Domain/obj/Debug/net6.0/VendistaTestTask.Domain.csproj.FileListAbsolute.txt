@@ -1,0 +1,12 @@
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\bin\Debug\net6.0\VendistaTestTask.Domain.deps.json
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\bin\Debug\net6.0\VendistaTestTask.Domain.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\bin\Debug\net6.0\VendistaTestTask.Domain.pdb
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.csproj.AssemblyReference.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.AssemblyInfoInputs.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.AssemblyInfo.cs
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.csproj.CoreCompileInputs.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\refint\VendistaTestTask.Domain.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\VendistaTestTask.Domain.pdb
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Domain\obj\Debug\net6.0\ref\VendistaTestTask.Domain.dll

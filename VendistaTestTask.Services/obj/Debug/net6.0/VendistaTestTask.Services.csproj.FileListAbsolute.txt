@@ -1,0 +1,15 @@
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\bin\Debug\net6.0\VendistaTestTask.Services.deps.json
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\bin\Debug\net6.0\VendistaTestTask.Services.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\bin\Debug\net6.0\VendistaTestTask.Services.pdb
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\bin\Debug\net6.0\VendistaTestTask.Domain.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\bin\Debug\net6.0\VendistaTestTask.Domain.pdb
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.csproj.AssemblyReference.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.AssemblyInfoInputs.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.AssemblyInfo.cs
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.csproj.CoreCompileInputs.cache
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.csproj.CopyComplete
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\refint\VendistaTestTask.Services.dll
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\VendistaTestTask.Services.pdb
+D:\Proj\C#\VendistaTestTask\VendistaTestTask.Services\obj\Debug\net6.0\ref\VendistaTestTask.Services.dll

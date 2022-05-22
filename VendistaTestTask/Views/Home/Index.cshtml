@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IndexViewModel
+@{
+    ViewData["Title"] = "Отправка команды на терминал";
+}
+
+@section Scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js" integrity="sha512-DedNBWPF0hLGUPNbCYfj8qjlEnNE92Fqn7xd3Sscfu7ipy7Zu33unHdugqRD3c4Vj7/yLv+slqZhMls/4Oc7Zg==" crossorigin="anonymous"></script>
+}
+
+<div class="container" style="height:500px;">
+    <form class="row" id="mainForm" method="post" asp-action="Index">
+        <div class="col-6">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Terminal Id</span>
+                <input type="text" name="terminalId" class="form-control" placeholder="0" required>
+            </div>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-2">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="False">Выберите действие...</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    @if (Model.Types?.Items is not null)
+                    {
+                        @foreach (var type in Model.Types.Items)
+                        {
+                            var url = $"/Home/ShowParams?id={type.Id}";
+                            <li class="dropdownOption">
+                                <a class="dropdown-item" href="" data-ajax="true" data-ajax-url=@url data-ajax-update="#params">@type.Name</a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+        <div id="params"></div>
+        <button type="button" class="btn btn-primary" id="submit">Отправить</button>
+    </form>
+</div>
+<div class="container">
+    <div id="history"></div>
+</div>

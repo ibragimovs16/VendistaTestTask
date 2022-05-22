@@ -1,0 +1,37 @@
+﻿@model IndexViewModel
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">№</th>
+        <th scope="col">Дата и время</th>
+        <th scope="col">Команда</th>
+        <th scope="col">Параметр 1</th>
+        <th scope="col">Параметр 2</th>
+        <th scope="col">Параметр 3</th>
+        <th scope="col">Статус</th>
+    </tr>
+    </thead>
+    <tbody>
+    @{
+        if (Model is not null)
+        {
+            var items = Model.History?.Items;
+            items?.Reverse();
+
+            for (var i = 0; i < items?.Count; i++)
+            {
+                <tr>
+                    <th scope="row">@(i + 1)</th>
+                    <td>@items?[i].TimeCreated</td>
+                    <td>@Model.Types?.Items?.First(item => item.Id == items?[i].CommandId).Name</td>
+                    <td>@items?[i].Parameter1</td>
+                    <td>@items?[i].Parameter2</td>
+                    <td>@items?[i].Parameter3</td>
+                    <td>@items?[i].StateName</td>
+                </tr>
+            }
+        }
+    }
+    </tbody>
+</table>

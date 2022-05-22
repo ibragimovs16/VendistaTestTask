@@ -1,0 +1,27 @@
+﻿@model VendistaTestTask.Domain.Models.TypesItemModel
+
+<div class="row">
+    @if (Model.ParameterName1 is not null)
+    {
+        <div class="col-12 mb-3">
+            <label for="param2">@Model.ParameterName1</label>
+            <input type="text" name="parameter1" value=@Model.ParameterDefaultValue1 required/>
+        </div>
+    }
+    @if (Model.ParameterName2 is not null)
+    {
+        <div class="col-12 mb-3">
+            <label for="param2">@Model.ParameterName2</label>
+            <input type="text" name="parameter2" value=@Model.ParameterDefaultValue2 required/>
+        </div>
+    }
+    @if (Model.ParameterName3 is not null)
+    {
+        <div class="col-12 mb-3">
+            <label for="param3">@Model.ParameterName3</label>
+            <input type="text" name="parameter3" value=@Model.ParameterDefaultValue3 required/>
+        </div>
+    }
+</div>
+
+<input type="hidden" name="commandId" value="@Model.Id">
